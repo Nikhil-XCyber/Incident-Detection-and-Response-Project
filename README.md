@@ -1,7 +1,7 @@
 # Incident-Detection-and-Response-Project
 Hands-on cybersecurity project utilizing Splunk for SIEM and UFW for defense. I configured Splunk to ingest SSH logs and performed Log Analysis to identify events consistent with a brute-force attack. This detection instantly triggered an automated response that leveraged the victim machine's firewall, UFW, to block the attacker's IP.
 
-🌟 Summary
+##🌟 Summary
 
 Used Splunk for Log Analysis of SSH logs to detect a brute-force attack.
 
@@ -15,7 +15,7 @@ Real-Time Mitigation: The script commanded the target machine's firewall, UFW (U
 
 This setup showcases the ability to transition from passive log monitoring to active, automated threat containment.
 
-🛠️ Key Technologies
+##🛠️ Key Technologies
 
 SIEM: Splunk Enterprise
 
